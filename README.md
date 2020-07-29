@@ -1,1 +1,1 @@
-# python-slack-channel-alert
+# Python-Slack-Channel-Alert
