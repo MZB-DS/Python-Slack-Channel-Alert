@@ -15,7 +15,7 @@ while True:
 
   count1 = sql_query_output_df["Count"][0]
 
-  if count1>count:
+  if count1>count: # Condition for triggering the alert
     count=count1
     text="New person added in the Pune city. Kindly check" #Message you want to post.
     slack_client.api_call("chat.postMessage",channel='Channel_Name',text=text) # Enter the slack channel yo want to trigger this alert on.
